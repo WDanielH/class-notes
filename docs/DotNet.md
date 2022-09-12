@@ -1,3 +1,3 @@
 # DotNet Over View
 
-|[Dotnet Overview](dotnet.excalidraw.svg)
+[Dotnet Overview](dev\class-notes\static\img\dotnet.excalidraw.svg)
