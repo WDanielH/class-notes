@@ -1,3 +1,4 @@
 # DotNet Over View
 
-[Dotnet Overview](dev\class-notes\static\img\dotnet.excalidraw.svg)
+[Dotnet Overview](static\img\dotnet.excalidraw.svg)
+[Logo](static\img\logo.svg)
