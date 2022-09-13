@@ -19,3 +19,46 @@ THE **Common Language Runtime (CLR)** is a managed runtime for your application.
 Each **Project** compiles into an assembly
 Each **Solution** is a workspace that can have more than one project
 
+**CODE**
+Console.WriteLine("Welcome to the Application!");
+
+
+
+
+Console.Write("Enter your name: ");
+string? name = Console.ReadLine();
+
+
+
+Console.Write("What is your Age?");
+
+
+
+string? ageAsString = Console.ReadLine();
+int age = 0;
+try
+{
+    age = int.Parse(ageAsString);
+}
+catch (FormatException)
+{
+
+
+
+   Console.WriteLine("Enter a number for your age, jerk!");
+    throw;
+}
+
+
+
+if (name == null)
+{
+    Console.WriteLine("Come on! Tell me your name!");
+}
+else
+{
+
+
+
+   Console.WriteLine($"Welcome to the application, {name}! Good to see you! You are {age} years old!");
+}
